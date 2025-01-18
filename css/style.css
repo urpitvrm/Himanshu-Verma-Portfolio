@@ -55,7 +55,9 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #232921;
+  
+background: white;
   text-align: left;
   background-color: #fff; }
 
@@ -8085,7 +8087,9 @@ a.text-dark:hover, a.text-dark:focus {
 
 .invisible {
   visibility: hidden !important; }
-
+.mb-4{
+  color: black !important;
+}
 @media print {
   *,
   *::before,
@@ -8942,7 +8946,7 @@ h1, h2, h3, h4, h5,
     font-size: 40px;
     font-weight: 900; }
     .ftco-hireme h2 span {
-      color: #ffbd39; }
+      color: black !important; }
 
 @media (min-width: 992px) {
   .margin-top {
@@ -9703,3 +9707,35 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+/* Custom Light Theme */
+
+/* Base Colors */
+body {
+  background-color: #f8f9fa; /* Light background */
+  color: black; /* Dark text */
+}
+
+/* Button Styles */
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+/* Card Styles */
+.card {
+  background-color: #fff;
+  border-color:black !important;
+  border-radius: 2px;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: black !important;
+  color: #343a40;
+}
+#typing-animation{
+  color: black !important;
+}
+.heading{
+  color: black !important;
+}
